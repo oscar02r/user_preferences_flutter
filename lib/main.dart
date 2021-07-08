@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:user_preferences_flutter/src/pages/home_page.dart';
+import 'package:user_preferences_flutter/src/pages/settings_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +15,8 @@ class MyApp  extends StatelessWidget{
      title: 'Preferencias',
      initialRoute: HomePage.routeName ,
      routes: {
-       HomePage.routeName:(BuildContext context) => HomePage()
+       HomePage.routeName:(BuildContext context) => HomePage(),
+       SettingsPage.routeName:(BuildContext context) => SettingsPage()
      },
    );
   }
