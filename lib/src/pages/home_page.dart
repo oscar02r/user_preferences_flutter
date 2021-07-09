@@ -1,7 +1,6 @@
 
 import 'package:flutter/cupertino.dart';
 import'package:flutter/material.dart';
-import 'package:user_preferences_flutter/src/pages/settings_page.dart';
 import 'package:user_preferences_flutter/src/widgets/menu_widget.dart';
 
 class HomePage extends StatelessWidget{

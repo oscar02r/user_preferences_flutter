@@ -26,7 +26,7 @@ class MenuWidget extends StatelessWidget{
           ),
           ListTile(
             leading:Icon(Icons.pages, color: Colors.blue,),
-            title: Text('Pages'),
+            title: Text('Home'),
             onTap: (){
               Navigator.pushReplacementNamed (context, HomePage.routeName);
             },
