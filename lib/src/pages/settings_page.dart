@@ -1,6 +1,5 @@
 
 import'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:user_preferences_flutter/src/share_preferences/preferences_user.dart';
 
 import 'package:user_preferences_flutter/src/widgets/menu_widget.dart';
@@ -32,6 +31,7 @@ class _SettingsPageState extends State<SettingsPage> {
 
   @override
   Widget build(BuildContext context) {
+    prefs.ultimaPagina =  SettingsPage.routeName;
     return Scaffold(
       appBar: AppBar(
         title: Text('Settings'),

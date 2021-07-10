@@ -1,6 +1,7 @@
 
 import 'package:flutter/cupertino.dart';
 import'package:flutter/material.dart';
+
 import 'package:user_preferences_flutter/src/share_preferences/preferences_user.dart';
 import 'package:user_preferences_flutter/src/widgets/menu_widget.dart';
 
@@ -10,6 +11,7 @@ class HomePage extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
+    prefs.ultimaPagina = HomePage.routeName;
    return Scaffold(
      appBar: AppBar(
        title: Text('Preferencias de usuarios'),
